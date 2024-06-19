@@ -1,3 +1,8 @@
+"""
+1. Write a program to check is a given number is
+- even or odd
+- positive, negative or zero
+"""
 def check_number(num):
     if num % 2 == 0:
         print(f"{num} is even")

@@ -1,5 +1,5 @@
 """
-1. Select k elements from the array such that their sum is maximized
+24. K Items with the Maximum Sum
 """
 
 class Solution(object):
@@ -11,5 +11,4 @@ class Solution(object):
         """
         nums.sort(reverse=True)
         return sum(nums[:k])
-
 
